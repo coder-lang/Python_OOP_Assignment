@@ -1,0 +1,69 @@
+Q1. Purpose of Python's OOP: Object-Oriented Programming (OOP) in Python is used to model real-world concepts as objects, allowing for better organization, reusability, and abstraction of code.
+
+Q2. Inheritance Search for Attribute: Inheritance searches for an attribute first in the instance, then in the class, and finally in base classes (superclasses) according to the method resolution order (MRO).
+
+Q3. Class Object vs. Instance Object: A class object is a blueprint for creating instances, while an instance object is a specific realization of that blueprint with its own unique data.
+
+Q4. Special First Argument in Method: The first argument in a class's method (usually named "self") refers to the instance itself and is automatically passed when the method is called.
+
+Q5. Purpose of __init__ Method: The __init__ method is a constructor used to initialize the attributes of an instance when it is created.
+
+Q6. Creating a Class Instance: To create a class instance, you use the class name followed by parentheses, like this: obj = MyClass().
+
+Q7. Creating a Class: To create a class, you use the class keyword followed by the class name and a colon, followed by class attributes and methods.
+
+Q8. Defining Superclasses: Superclasses of a class are defined in the class definition by specifying them in parentheses after the class name (e.g., class SubClass(SuperClass)).
+
+Q9. Classes and Modules: Classes define blueprints for objects, while modules are files containing Python code, including classes. Modules can contain multiple classes and other code.
+
+Q10. Making Instances and Classes: You make instances by calling a class with parentheses, and you define classes using the class keyword followed by a class name.
+
+Q11. Creating Class Attributes: Class attributes are defined within the class, outside of any methods, and are shared among all instances of the class.
+
+Q12. Creating Instance Attributes: Instance attributes are created within methods of the class and are specific to each instance.
+
+Q13. "self" in Python Class: "self" in a Python class refers to the instance itself and is used to access and manipulate instance attributes and methods.
+
+Q14. Operator Overloading: Python classes can define special methods (e.g., __add__, __sub__) to handle operator overloading for instances of that class.
+
+Q15. Allowing Operator Overloading: You consider allowing operator overloading when you want instances of your class to work with built-in operators in a custom way.
+
+Q16. Popular Operator Overloading Form: One popular form of operator overloading is implementing the __add__ method for custom addition of instances.
+
+Q17. Important OOP Concepts: Two important concepts in Python OOP are inheritance (extending classes) and encapsulation (hiding internal details).
+
+Q18. Applications for Exception Processing: Exception handling is used for error reporting, graceful recovery from errors, and ensuring proper resource cleanup.
+
+Q19. Not Treating an Exception: If you don't handle an exception, it will propagate up the call stack, potentially causing the program to terminate.
+
+Q20. Recovering from an Exception: You can recover from an exception by using try-except blocks to catch and handle the exception, allowing the program to continue execution.
+
+Q21. Triggering Exceptions: You can trigger exceptions using the raise statement or by letting built-in exceptions occur naturally.
+
+Q22. Actions at Termination: You can specify actions at termination time using the finally block or by using context managers (with statement).
+
+Q23. Purpose of Try Statement: The try statement is used to enclose code that might raise exceptions, allowing you to handle those exceptions gracefully.
+
+Q24. Popular Try Variations: Two popular try variations are try-except for catching and handling exceptions and try-finally for ensuring cleanup.
+
+Q25. Purpose of Raise Statement: The raise statement is used to raise exceptions manually, allowing you to specify custom exception behavior.
+
+Q26. Assert Statement: The assert statement is used for debugging and is similar to the if statement, but it raises an exception if the condition is False.
+
+Q27. with/as Argument: The with/as statement is used with context managers to ensure proper setup and teardown of resources. It is similar to try-finally.
+
+Q28. *args and **kwargs: These are used in function definitions to allow variable-length arguments. *args collects positional arguments, and **kwargs collects keyword arguments.
+
+Q29. Passing Parameters: You can pass optional or keyword parameters from one function to another by using *args and **kwargs in function calls.
+
+Q30. Lambda Functions: Lambda functions are anonymous functions defined with the lambda keyword, often used for short, simple operations.
+
+Q31. Inheritance Example: Inheritance in Python allows a subclass to inherit attributes and methods from a superclass. For example, a Cat class can inherit from an Animal class.
+
+Q32. Invoking Method in Multiple Inheritance: The version of the method invoked depends on the method resolution order (MRO). If there's ambiguity, it follows a specific MRO algorithm.
+
+Q33. Determining Type and Inheritance: You can use the type() function to determine an object's type and the isinstance() function to check if an object is an instance of a particular class or its subclasses.
+
+Q34. 'nonlocal' Keyword: The 'nonlocal' keyword is used in nested functions to indicate that a variable should be considered non-local (neither local nor global), allowing it to be modified in an outer function's scope.
+
+Q35. Global Keyword: The 'global' keyword is used to indicate that a variable declared within a function should refer to a global variable instead of creating a new local variable.
